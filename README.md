@@ -25,19 +25,19 @@ fastly.purge('myhost.com', '/cats', function (err, obj) {
 ### Helper Methods
 <table width="100%">
     <tr>
-        <th width="25%" valign="top">Method</td>
-        <th width="65%" valign="top">Description</td>
-        <th width="10%" valign="top"></td>
+        <th width="20%" valign="top">Method</td>
+        <th width="75%" valign="top">Description</td>
+        <th width="5%" valign="top"></td>
     </tr>
     <tr>
         <td valign="top">purge</td>
         <td valign="top">Purging removes content from Fastly so it can be refreshed from your origin servers.</td>
-        <td valign="top">[Link](http://www.fastly.com/docs/api#purge)</td>
+        <td valign="top"><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
     </tr>
     <tr>
         <td valign="top">stats</td>
         <td valign="top">Stats give you information on the usage and performance of your Service.</td>
-        <td valign="top">[Link](http://www.fastly.com/docs/api#stats)</td>
+        <td valign="top"><a href="http://www.fastly.com/docs/api#stats">Link</a></td>
     </tr>
 </table>
 
