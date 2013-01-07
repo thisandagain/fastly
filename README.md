@@ -1,5 +1,7 @@
 ## fastly
-### A [fastly](http://www.fastly.com) API client for Node.js
+### [Fastly](http://www.fastly.com) API client for Node.js
+
+[![Build Status](https://secure.travis-ci.org/thisandagain/fastly.png)](http://travis-ci.org/thisandagain/fastly)
 
 ### Installation
 ```bash
@@ -20,7 +22,7 @@ fastly.purge('myhost.com', '/cats', function (err, obj) {
 });
 ```
 
-### To Test
+### Testing
 ```bash
 npm test
 ```
