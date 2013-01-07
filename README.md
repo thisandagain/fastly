@@ -13,7 +13,7 @@ npm install fastly
 var fastly = require('fastly');
 
 fastly.authenticate('yourapikey');
-fastly.purge('myhost.com', '/cats', function (err, obj) {
+fastly.purge('awesomecats.com', '/cats', function (err, obj) {
     if (err) {
         console.dir(err);   // Oh no!
     } else {
@@ -26,17 +26,17 @@ fastly.purge('myhost.com', '/cats', function (err, obj) {
 <table width="100%">
     <tr>
         <th width="20%" valign="top">Method</td>
-        <th width="75%" valign="top">Description</td>
+        <th width="75%" valign="top">Example</td>
         <th width="5%" valign="top"></td>
     </tr>
     <tr>
         <td valign="top">purge</td>
-        <td valign="top">Purging removes content from Fastly so it can be refreshed from your origin servers.</td>
+        <td valign="top"><pre lang="javascript"><code>fastly.purge('host.com', '/index.html', callback);</code></pre></td>
         <td valign="top"><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
     </tr>
     <tr>
         <td valign="top">stats</td>
-        <td valign="top">Stats give you information on the usage and performance of your Service.</td>
+        <td valign="top"><pre lang="javascript"><code>fastly.stats('myServiceId', callback);</code></pre></td>
         <td valign="top"><a href="http://www.fastly.com/docs/api#stats">Link</a></td>
     </tr>
 </table>
