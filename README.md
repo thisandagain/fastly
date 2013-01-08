@@ -25,24 +25,24 @@ fastly.purge('realtimecats.com', '/cats', function (err, obj) {
 ### Helper Methods
 <table width="100%">
     <tr>
-        <th width="20%" valign="top">Method</td>
-        <th width="75%" valign="top">Example</td>
-        <th width="5%" valign="top"></td>
+        <th width="20%">Method</td>
+        <th width="75%">Example</td>
+        <th width="5%"></td>
     </tr>
     <tr>
-        <td valign="top">purge</td>
-        <td valign="top"><pre lang="javascript"><code>fastly.purge('host.com', '/index.html', callback);</code></pre></td>
-        <td valign="top"><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
+        <td>purge</td>
+        <td><pre lang="javascript"><code>fastly.purge('host.com', '/index.html', callback);</code></pre></td>
+        <td><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
     </tr>
     <tr>
-        <td valign="top">purgeAll</td>
-        <td valign="top"><pre lang="javascript"><code>fastly.purgeAll('myServiceId', callback);</code></pre></td>
-        <td valign="top"><a href="http://www.fastly.com/docs/api#service">Link</a></td>
+        <td>purgeAll</td>
+        <td><pre lang="javascript"><code>fastly.purgeAll('myServiceId', callback);</code></pre></td>
+        <td><a href="http://www.fastly.com/docs/api#service">Link</a></td>
     </tr>
     <tr>
-        <td valign="top">stats</td>
-        <td valign="top"><pre lang="javascript"><code>fastly.stats('myServiceId', callback);</code></pre></td>
-        <td valign="top"><a href="http://www.fastly.com/docs/api#stats">Link</a></td>
+        <td>stats</td>
+        <td><pre lang="javascript"><code>fastly.stats('myServiceId', callback);</code></pre></td>
+        <td><a href="http://www.fastly.com/docs/api#stats">Link</a></td>
     </tr>
 </table>
 
