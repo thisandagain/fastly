@@ -26,8 +26,7 @@ test('module definition', function (t) {
  */
 test('module helper methods', function (t) {
     t.type(fastly.purge, 'function', 'method should be a function');
-    t.type(fastly.backends, 'function', 'method should be a function');
-    t.type(fastly.backend, 'function', 'method should be a function');
+    t.type(fastly.purgeAll, 'function', 'method should be a function');
     t.type(fastly.stats, 'function', 'method should be a function');
     t.end();
 });
