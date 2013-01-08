@@ -35,6 +35,11 @@ fastly.purge('realtimecats.com', '/cats', function (err, obj) {
         <td valign="top"><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
     </tr>
     <tr>
+        <td valign="top">purgeAll</td>
+        <td valign="top"><pre lang="javascript"><code>fastly.purgeAll('myServiceId', callback);</code></pre></td>
+        <td valign="top"><a href="http://www.fastly.com/docs/api#service">Link</a></td>
+    </tr>
+    <tr>
         <td valign="top">stats</td>
         <td valign="top"><pre lang="javascript"><code>fastly.stats('myServiceId', callback);</code></pre></td>
         <td valign="top"><a href="http://www.fastly.com/docs/api#stats">Link</a></td>
