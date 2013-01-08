@@ -13,7 +13,7 @@ npm install fastly
 var fastly = require('fastly');
 
 fastly.authenticate('yourapikey');
-fastly.purge('awesomecats.com', '/cats', function (err, obj) {
+fastly.purge('realtimecats.com', '/cats', function (err, obj) {
     if (err) {
         console.dir(err);   // Oh no!
     } else {
