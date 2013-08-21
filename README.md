@@ -35,7 +35,12 @@ The fastly module also includes a few limited "helper" methods that make working
     <tr>
         <td>purgeAll</td>
         <td><pre lang="javascript"><code>fastly.purgeAll('myServiceId', callback);</code></pre></td>
-        <td><a href="http://www.fastly.com/docs/api#service">Link</a></td>
+        <td><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
+    </tr>
+    <tr>
+        <td>purgeKey</td>
+        <td><pre lang="javascript"><code>fastly.purgeKey('myServiceId', 'key', callback);</code></pre></td>
+        <td><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
     </tr>
     <tr>
         <td>stats</td>
