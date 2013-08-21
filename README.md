@@ -10,19 +10,17 @@ npm install fastly
 
 ### Basic Use
 ```javascript
-var fastly = require('fastly');
+var fastly = require('fastly')('yourapikey');
 
-fastly.authenticate('yourapikey');
-fastly.purge('realtimecats.com', '/cats', function (err, obj) {
-    if (err) {
-        console.dir(err);   // Oh no!
-    } else {
-        console.dir(obj);   // Contains the response body from the fastly API
-    }
+fastly.request('GET', '/content/edge_check?url=www.mysite.com/foo/bar', function (err, obj) {
+    if (err) return console.dir(err);   // Oh no!
+    console.dir(obj);                   // Contains the response body from the fastly API
 });
 ```
 
 ### Helper Methods
+The fastly module also includes a few limited "helper" methods that make working with common API resources a bit simpler:
+
 <table width="100%">
     <tr>
         <th width="20%">Method</td>

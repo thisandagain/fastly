@@ -1,10 +1,12 @@
 {
   "author": "Andrew Sliwinski <andrew@diy.org>",
-  "contributors": ["Andy Hume"],
+  "contributors": [
+    "Andy Hume"
+  ],
   "name": "fastly",
   "description": "Fastly API client for Node.js",
   "keywords": "fastly, api, client",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/thisandagain/fastly",
   "repository": {
     "type": "git",
@@ -12,18 +14,17 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "make test"
   },
   "dependencies": {
     "request": "~2.12.0"
   },
   "devDependencies": {
-    "async": "~0.1.22",
-    "codebux": "~0.1.2",
+    "hint-hint": "~0.3.0",
     "tap": "~0.3.3"
   },
   "optionalDependencies": {},
   "engines": {
-    "node": ">=0.6"
+    "node": ">=0.8"
   }
 }
