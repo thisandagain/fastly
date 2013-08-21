@@ -14,7 +14,7 @@ var fastly = require('fastly')('yourapikey');
 
 fastly.request('GET', '/content/edge_check?url=mysite.com/foo', function (err, obj) {
     if (err) return console.dir(err);   // Oh no!
-    console.dir(obj);                   // Contains the response body from the fastly API
+    console.dir(obj);                   // Response body from the fastly API
 });
 ```
 
