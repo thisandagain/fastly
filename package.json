@@ -1,12 +1,13 @@
 {
   "author": "Andrew Sliwinski <andrew@diy.org>",
   "contributors": [
-    "Andy Hume"
+    "Andy Hume",
+    "Jeremiah Lee"
   ],
   "name": "fastly",
   "description": "Fastly API client for Node.js",
   "keywords": "fastly, api, client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/thisandagain/fastly",
   "repository": {
     "type": "git",
