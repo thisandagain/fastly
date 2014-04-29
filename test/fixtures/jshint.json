@@ -5,7 +5,7 @@
     "immed": true,
     "latedef": true,
     "maxdepth": 2,
-    "maxparams": 3,
+    "maxparams": 4,
     "newcap": true,
     "noarg": true,
     "node": true,
