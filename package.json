@@ -23,7 +23,7 @@
     "request": "~2.12.0"
   },
   "devDependencies": {
-    "hint-hint": "~0.3.0",
+    "jshint": "~2.5.0",
     "tap": "~0.3.3"
   },
   "optionalDependencies": {},

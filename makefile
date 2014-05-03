@@ -1,5 +1,14 @@
-test:
-	tap test/governance/*.js
-	tap test/unit/*.js
+JSHINT = ./node_modules/.bin/jshint
+TAP = ./node_modules/.bin/tap
 
-.PHONY: test
+lint:
+	$(JSHINT) ./lib/*.js
+
+unit:
+	$(TAP) ./test/unit/*.js
+
+test:
+	@make lint
+	@make unit
+
+.PHONY: lint unit test
