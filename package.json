@@ -3,12 +3,13 @@
   "contributors": [
     "Andy Hume",
     "Jeremiah Lee",
-    "Isaac Z. Schlueter"
+    "Isaac Z. Schlueter",
+    "Benjamin E. Coe"
   ],
   "name": "fastly",
   "description": "Fastly API client for Node.js",
   "keywords": "fastly, api, client",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "homepage": "https://github.com/thisandagain/fastly",
   "repository": {
     "type": "git",
