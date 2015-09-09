@@ -30,22 +30,22 @@ The fastly module also includes a few limited "helper" methods that make working
     <tr>
         <td>purge</td>
         <td><pre lang="javascript"><code>fastly.purge('host.com', '/index.html', callback);</code></pre></td>
-        <td><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
+        <td><a href="https://www.fastly.com/docs/api/purge">Link</a></td>
     </tr>
     <tr>
         <td>purgeAll</td>
         <td><pre lang="javascript"><code>fastly.purgeAll('myServiceId', callback);</code></pre></td>
-        <td><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
+        <td><a href="https://www.fastly.com/docs/api/purge">Link</a></td>
     </tr>
     <tr>
         <td>purgeKey</td>
         <td><pre lang="javascript"><code>fastly.purgeKey('myServiceId', 'key', callback);</code></pre></td>
-        <td><a href="http://www.fastly.com/docs/api#purge">Link</a></td>
+        <td><a href="https://www.fastly.com/docs/api/purge">Link</a></td>
     </tr>
     <tr>
         <td>stats</td>
         <td><pre lang="javascript"><code>fastly.stats('myServiceId', callback);</code></pre></td>
-        <td><a href="http://www.fastly.com/docs/api#stats">Link</a></td>
+        <td><a href="https://www.fastly.com/docs/api/stats">Link</a></td>
     </tr>
 </table>
 
