@@ -24,8 +24,8 @@
     "request": "~2.79.0"
   },
   "devDependencies": {
-    "jshint": "~2.5.0",
-    "tap": "~0.3.3"
+    "jshint": "~2.9.4",
+    "tap": "~8.0.1"
   },
   "optionalDependencies": {},
   "engines": {
