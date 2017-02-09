@@ -1,6 +1,8 @@
 ## fastly
 ### [Fastly](http://www.fastly.com) API client for Node.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/thisandagain/fastly.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/thisandagain/fastly.png?branch=master)](https://travis-ci.org/thisandagain/fastly)
 [![dependencies Status](https://david-dm.org/thisandagain/fastly/status.svg)](https://david-dm.org/thisandagain/fastly)
 
