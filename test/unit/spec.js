@@ -9,6 +9,8 @@ test('spec', function (t) {
     t.type(f.request, 'function', 'request method exists');
     t.type(f.purge, 'function', 'purge method exists');
     t.type(f.purgeAll, 'function', 'purgeAll method exists');
+    t.type(f.softPurge, 'function', 'purge method exists');
+    t.type(f.softPurgeAll, 'function', 'purgeAll method exists');
     t.type(f.purgeKey, 'function', 'purgeKey method exists');
     t.type(f.softPurgeKey, 'function', 'softPurgeKey method exists');
     t.type(f.stats, 'function', 'stats method exists');
