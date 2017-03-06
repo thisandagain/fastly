@@ -2,6 +2,7 @@
 ### [Fastly](http://www.fastly.com) API client for Node.js
 
 [![Build Status](https://travis-ci.org/thisandagain/fastly.png?branch=master)](https://travis-ci.org/thisandagain/fastly)
+[![dependencies Status](https://david-dm.org/thisandagain/fastly/status.svg)](https://david-dm.org/thisandagain/fastly)
 
 ### Installation
 ```bash
