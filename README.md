@@ -53,6 +53,21 @@ The fastly module also includes a few limited "helper" methods that make working
         <td><pre lang="javascript"><code>fastly.stats('myServiceId', callback);</code></pre></td>
         <td><a href="https://www.fastly.com/docs/api/stats">Link</a></td>
     </tr>
+    <tr>
+        <td>datacenters</td>
+        <td><pre lang="javascript"><code>fastly.datacenters(callback);</code></pre></td>
+        <td><a href="https://docs.fastly.com/api/tools#datacenter">Link</a></td>
+    </tr>
+    <tr>
+        <td>publicIpList</td>
+        <td><pre lang="javascript"><code>fastly.publicIpList(callback);</code></pre></td>
+        <td><a href="https://docs.fastly.com/api/tools#public_ip_list">Link</a></td>
+    </tr>
+    <tr>
+        <td>edgeCheck</td>
+        <td><pre lang="javascript"><code>fastly.edgeCheck('url', callback);</code></pre></td>
+        <td><a href="https://docs.fastly.com/api/tools#content">Link</a></td>
+    </tr>
 </table>
 
 ### Testing
