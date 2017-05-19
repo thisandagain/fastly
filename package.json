@@ -5,12 +5,13 @@
     "Jeremiah Lee",
     "Isaac Z. Schlueter",
     "Benjamin E. Coe",
-    "Yousef Cisco"
+    "Yousef Cisco",
+    "Mark Dorison"
   ],
   "name": "fastly",
   "description": "Fastly API client for Node.js",
   "keywords": "fastly, api, client",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "homepage": "https://github.com/thisandagain/fastly",
   "repository": {
     "type": "git",
