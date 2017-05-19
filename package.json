@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "jshint": "~2.5.0",
-    "tap": "~0.3.3"
+    "tap": "~10.0.0"
   },
   "optionalDependencies": {},
   "engines": {
