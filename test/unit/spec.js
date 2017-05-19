@@ -14,5 +14,8 @@ test('spec', function (t) {
     t.type(f.purgeKey, 'function', 'purgeKey method exists');
     t.type(f.softPurgeKey, 'function', 'softPurgeKey method exists');
     t.type(f.stats, 'function', 'stats method exists');
+    t.type(f.datacenters, 'function', 'datacenters method exists');
+    t.type(f.publicIpList, 'function', 'publicIpList method exists');
+    t.type(f.edgeCheck, 'function', 'edgeCheck method exists');
     t.end();
 });
