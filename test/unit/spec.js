@@ -17,5 +17,11 @@ test('spec', function (t) {
     t.type(f.datacenters, 'function', 'datacenters method exists');
     t.type(f.publicIpList, 'function', 'publicIpList method exists');
     t.type(f.edgeCheck, 'function', 'edgeCheck method exists');
+    t.type(f.createDictionary, 'function', 'createDictionary method exists');
+    t.type(f.getDictionaries, 'function', 'getDictionaries method exists');
+    t.type(f.getDictionary, 'function', 'getDictionary method exists');
+    t.type(f.createDictionaryItem, 'function', 'createDictionaryItem method exists');
+    t.type(f.getDictionaryItems, 'function', 'getDictionaryItems method exists');
+    t.type(f.getDictionaryItem, 'function', 'getDictionaryItem method exists');
     t.end();
 });
