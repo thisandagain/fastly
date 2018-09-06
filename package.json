@@ -22,7 +22,7 @@
     "test": "make test"
   },
   "dependencies": {
-    "request": "~2.79.0"
+    "request": "~2.88.0"
   },
   "devDependencies": {
     "jshint": "~2.5.0",
