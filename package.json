@@ -11,7 +11,7 @@
   "name": "fastly",
   "description": "Fastly API client for Node.js",
   "keywords": "fastly, api, client",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "homepage": "https://github.com/thisandagain/fastly",
   "repository": {
     "type": "git",
