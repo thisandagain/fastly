@@ -4,7 +4,7 @@
 
 **This project is not affiliated with Fastly.**
 
-**Fastly now maintain [their own API client for JavaScript](https://github.com/fastly/fastly-js), which is in beta.  Consider using that instead.**
+**Fastly now maintain [their own API client for JavaScript](https://github.com/fastly/fastly-js).  Consider using that instead.**
 
 ---
 
